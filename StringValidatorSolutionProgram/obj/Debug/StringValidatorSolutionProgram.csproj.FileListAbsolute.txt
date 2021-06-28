@@ -1,0 +1,7 @@
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\bin\Debug\StringValidator.exe.config
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\bin\Debug\StringValidator.exe
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\bin\Debug\StringValidator.pdb
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\obj\Debug\StringValidatorSolutionProgram.csproj.CoreCompileInputs.cache
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\obj\Debug\StringValidator.exe
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\obj\Debug\StringValidator.pdb
+C:\Users\srivatsa.mc\source\repos\StringValidator\StringValidator\obj\Debug\StringValidatorSolutionProgram.csprojResolveAssemblyReference.cache
