@@ -10,7 +10,7 @@ namespace StringValidator
     {
         public bool Validate(string data)
         {
-            if (data == "")
+            if (string.IsNullOrEmpty(data)
             {
                 return true;
             }
