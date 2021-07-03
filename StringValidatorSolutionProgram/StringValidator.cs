@@ -10,28 +10,19 @@ namespace StringValidator
     {
         Ivalidate _validate;
 
-        public StringValidator(Ivalidate data)
+        public void SetStringValidator(Ivalidate data)
         {
             this._validate = data;
         }
 
-        public void CheckForEmptyString(string userString)
+        public void StringValidate(string dataString)
         {
-           bool emptyStringResult= _validate.Validate(userString);
-           Console.WriteLine("The string given to check empty is :"+emptyStringResult);
+            bool returnValue= this._validate.Validate(dataString);
+            Console.WriteLine(returnValue);
+
         }
 
-        public void CheckForLengthOfString(string userGivenString)
-        {
-            bool lengthOfStringResult = _validate.Validate(userGivenString);
-            Console.WriteLine("The string given to check length condition is :" + lengthOfStringResult);
-        }
-
-        public void CheckForStartsWithString(string userStringGiven)
-        {
-            bool startsWithResult = _validate.Validate(userStringGiven);
-            Console.WriteLine("The string given to check starts with is:" + startsWithResult);
-        }
+       
      
     }
 }

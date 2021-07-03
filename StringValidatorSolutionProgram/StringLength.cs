@@ -10,11 +10,13 @@ namespace StringValidator
     {
         public bool Validate(string data)
         {
-            if (data.Length > 8 )
+            int length = data.Length;
+
+            if (length < 8 )
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
     }
 }
